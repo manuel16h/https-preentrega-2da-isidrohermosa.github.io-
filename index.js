@@ -63,7 +63,7 @@ do {
     let nota1 = Number(prompt("Primera nota"));
     let nota2 = Number(prompt("Segunda Nota"));
     let integrador = Number(prompt("Trabajo Integrador"));
-    let asistencia = Number(prompt("Presentes (de un tatoal de 20 clases)"));
+    let asistencia = Number(prompt("Presentes (de un tatal de 20 clases)"));
 
     if ((alumno !== "") && (nota1 >= 0 && nota1 <= 10) && (nota2 >= 0 && nota2 <= 10) && (integrador >= 0 && integrador <= 10) && (asistencia >= 0 && asistencia <= 20)) {
         const nuevoAlumno = new DatoAlumno(alumno, nota1, nota2, integrador, asistencia);
