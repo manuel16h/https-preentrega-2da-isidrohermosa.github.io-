@@ -1,0 +1,16 @@
+
+.titulo1 {
+    color: rgb(33, 33, 160);
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  body {
+
+    background-image: url('img2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
